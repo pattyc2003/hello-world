@@ -1,0 +1,271 @@
+.body
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:none;
+	color:#000000;
+	font-style:normal;
+}
+.copy
+{
+	font-family:Arial;
+	font-size:8pt;
+	text-decoration:none;
+	color:#000000;
+	font-style:normal;
+}
+a.links
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+a:hover.links
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:underline;
+	color:#C0C0C0;
+	font-weight:bold;
+}
+a.back
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:none;
+	color:#800000;
+	font-weight:bold;
+}
+a:hover.back
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:underline;
+	color:#FF0000;
+	font-weight:bold;
+}
+a.menu
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:none;
+	color:#245FB7;
+	font-weight:bold;
+}
+a:hover.menu
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:underline;
+	color:#A9A499;
+	font-weight:bold;
+}
+.m_title
+{
+	font-family:Arial;
+	font-size:12pt;
+	text-decoration:none;
+	color:#000000;
+	font-weight:bold;	
+}
+.s_title
+{
+	font-family:Arial;
+	font-size:10pt;
+	text-decoration:none;
+	color:#800000;
+	font-weight:bold;	
+}
+.notes
+{
+	font-family:Arial;
+	font-size:7pt;
+	text-decoration:none;
+	color:#000000;
+	font-style:normal;	
+}
+.dropbtn {
+    background-color: DodgerBlue;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+	cursor: pointer;
+	border-radius: 12px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+.button{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4 {border-radius: 12px;}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+}.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.button4 {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.btn:hover {
+	background-color: RoyalBlue;
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+	overflow: hidden;
+	background-color: DodgerBlue;
+  }
+  
+  .topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  .active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .topnav .icon {
+	display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.topnav.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+
+  h1{
+    font-size:40px
+}
+h2{
+    font-size: 30px
+}
+h3{
+    font-size: 20px
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+
+
